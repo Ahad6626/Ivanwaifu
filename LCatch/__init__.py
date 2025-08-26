@@ -25,15 +25,15 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 # ---------------------------- CONSTANTS ---------------------------------
-api_id = os.getenv("API_ID", "22949712")
-api_hash = os.getenv("API_HASH", "918007ea4d42bb1b3eeb509d3f99b04a")
-TOKEN = os.getenv("TOKEN", "7727035867:AAFN7gPqQQHRksirYq69G5CsCmceEImy1es")
-GLOG = os.getenv("GLOG", "lusst_log")
-CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "lusst_log")
-SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002521213057")
-mongo_url = os.getenv("MONGO_URL", "mongodb+srv://shreyan82683:shreyan82683@cluster0.ucwuljq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+api_id = os.getenv("API_ID", "22657083")
+api_hash = os.getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
+TOKEN = os.getenv("TOKEN", "8267678007:AAE5G5WTjqaVnFWzd2u38Rdv2-PK8GrS9o4")
+GLOG = os.getenv("GLOG", "WaifuxIvan")
+CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaifuxIvan")
+SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002902949191")
+mongo_url = os.getenv("MONGO_URL", "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan")
 
-MUSJ_JOIN = os.getenv("MUSJ_JOIN", "-1002521213057")
+MUSJ_JOIN = os.getenv("MUSJ_JOIN", "-1002902949191")
 
 # Modified to support both image and video URLs
 START_MEDIA = os.getenv("START_MEDIA", "https://files.catbox.moe/ohzuz7.jpg,https://files.catbox.moe/hp6hoj.jpg").split(',')
