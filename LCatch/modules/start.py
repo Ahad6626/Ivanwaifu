@@ -34,8 +34,8 @@ Spotted a bug or have a feature request? The Support button is your friend! 😉
 
     buttons = [
         [InlineKeyboardButton("Aᴅᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ", url=f"https://t.me/LCatch_Robot?startgroup=true")],
-        [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+Qq_DJrLZyOAxOWE1"), 
-         InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=UPDATE_CHAT)],
+        [InlineKeyboardButton("Iᴠᴀɴ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+G42j7plUt91mYmQx"), 
+         InlineKeyboardButton("Iᴠᴀɴ Cʜᴀɴɴᴇʟ", url=UPDATE_CHAT)],
         [InlineKeyboardButton("Hᴇʟᴘ", callback_data="open_help")]
     ]
     
