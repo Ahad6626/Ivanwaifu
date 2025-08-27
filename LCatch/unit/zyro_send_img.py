@@ -16,8 +16,8 @@ async def delete_message(chat_id, message_id, context):
 RARITY_WEIGHTS = {
     "⚪️ Common": (40, True),              # Most frequent
     "🟠 Nobel": (20, True),           # Less frequent than Low
-    "🔞 Nude": (12, True),             # Rare but obtainable
-    "👩‍❤️‍👨 Sex": (8, True),   # Very rare
+    "💮 Legendary": (12, True),             # Rare but obtainable
+    "👑 Limited Edition": (8, True),   # Very rare
     "🪐 Exclusive": (4, True),     # Extremely rare
 }
 
