@@ -23,14 +23,15 @@ async def generate_start_message(client, message):
     ping = round(time.time() - message.date.timestamp(), 2)
     uptime = get_uptime()
     
-    caption = f"""Greetings, fellow otaku! ✨ I'm {bot_name}, an anime-based game bot here to level up your fun!
-
-Explore my anime-themed commands with /help! Get ready for an epic adventure!
-
-Spotted a bug or have a feature request? The Support button is your friend! 😉
+    caption = 🍃 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ ˹ᴡᴀɪғᴜ ɢꝛᴀʙʙᴇꝛ ʙᴏᴛ˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
 ━━━━━━━▧▣▧━━━━━━━
-➺ ᴘɪɴɢ: {ping} ms
-➺ ᴜᴘᴛɪᴍᴇ: {uptime}"""
+⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
+     ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ғᴏʀ
+     ᴜsᴇʀs ᴛᴏ ɢʀᴀʙ.
+⦾ ᴛᴏ ᴜsᴇ ᴍᴇ: ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ
+     ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ
+     ʙᴜᴛᴛᴏɴ ғᴏʀ ᴅᴇᴛᴀɪʟs.
+━━━━━━━▧▣▧━━━━━━━
 
     buttons = [
         [InlineKeyboardButton("Aᴅᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ", url=f"https://t.me/LCatch_Robot?startgroup=true")],
