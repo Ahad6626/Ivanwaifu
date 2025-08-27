@@ -15,8 +15,8 @@ use rarity number accordingly rarity Map
 rarity_map = {
     1: "⚪️ Comman",
     2: "🟠 Nobel",
-    3: "Nude",
-    4: "Sex",
+    3: "Legendary",
+    4: "Limited Edition",
     5: " Exclusive"
 }
 """
