@@ -27,7 +27,7 @@ def LOGGER(name: str) -> logging.Logger:
 # ---------------------------- CONSTANTS ---------------------------------
 api_id = os.getenv("API_ID", "22657083")
 api_hash = os.getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
-TOKEN = os.getenv("TOKEN", "8267678007:AAE5G5WTjqaVnFWzd2u38Rdv2-PK8GrS9o4")
+TOKEN = os.getenv("TOKEN", "8267678007:AAELAQu_PCXObEbicE47ik-0siaTwxqhMRw")
 GLOG = os.getenv("GLOG", "WaifuxIvan")
 CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaifuxDb")
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002902949191")
