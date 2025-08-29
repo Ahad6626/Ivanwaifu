@@ -6,12 +6,12 @@
   "env": {
     "API_ID": {
       "description": "Telegram API ID for the bot",
-      "value": "22949712",
+      "value": "22657083",
       "required": true
     },
     "API_HASH": {
       "description": "Telegram API Hash for the bot",
-      "value": "918007ea4d42bb1b3eeb509d3f99b04a",
+      "value": "d6186691704bd901bdab275ceaab88f3",
       "required": true
     },
     "TOKEN": {
@@ -21,52 +21,52 @@
     },
     "GLOG": {
       "description": "Username or ID of the log channel",
-      "value": "lusst_log",
+      "value": "IvanxNisha",
       "required": true
     },
     "CHARA_CHANNEL_ID": {
       "description": "Username or ID of the character channel",
-      "value": "lusst_log",
+      "value": "WaifuxDb",
       "required": true
     },
     "SUPPORT_CHAT_ID": {
       "description": "ID of the support chat",
-      "value": "-1002521213057",
+      "value": "-1002902949191",
       "required": true
     },
     "MONGO_URL": {
       "description": "MongoDB connection URL",
-      "value": "mongodb+srv://shreyan82683:shreyan82683@cluster0.ucwuljq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "value": "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan",
       "required": true
     },
     "PHOTO_URL_1": {
       "description": "First photo URL for the bot",
-      "value": "https://files.catbox.moe/vynvvl.jpg",
+      "value": "https://files.catbox.moe/8fk6th.jpg",
       "required": false
     },
     "PHOTO_URL_2": {
       "description": "Second photo URL for the bot",
-      "value": "https://files.catbox.moe/0yl60o.jpg",
+      "value": "https://files.catbox.moe/z0t7vl.jpg",
       "required": false
     },
     "SUPPORT_CHAT": {
       "description": "Support chat URL",
-      "value": "https://t.me/+Qq_DJrLZyOAxOWE1",
+      "value": "https://t.me/WaifuxIvan",
       "required": true
     },
     "UPDATE_CHAT": {
       "description": "Update chat URL",
-      "value": "https://t.me/lUst_uPdates",
+      "value": "https://t.me/WaifuxDb",
       "required": true
     },
     "SUDO": {
       "description": "Comma-separated list of sudo user IDs",
-      "value": "7824632184",
+      "value": "7570342458",
       "required": true
     },
     "OWNER_ID": {
       "description": "Owner's Telegram user ID",
-      "value": "8043525426",
+      "value": "8195241636",
       "required": true
     }
   },
