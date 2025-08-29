@@ -14,11 +14,11 @@ async def delete_message(chat_id, message_id, context):
         print(f"Error deleting message: {e}")
 
 RARITY_WEIGHTS = {
-    "⚪️ Common": (40, True),              # Most frequent
-    "🟠 Nobel": (20, True),           # Less frequent than Low
-    "💮 Legendary": (12, True),             # Rare but obtainable
-    "👑 Limited Edition": (8, True),   # Very rare
-    "🪐 Exclusive": (4, True),     # Extremely rare
+    "Common 🟠": (40, True),              # Most frequent
+    "Legendary 🟡": (20, True),           # Less frequent than Low
+    "Exclusive 💮": (12, True),             # Rare but obtainable
+    "Limited 🔮": (8, True),   # Very rare
+    "Celestial 🎐": (4, True),     # Extremely rare
 }
 
 async def send_image(update: Update, context: CallbackContext) -> None:
