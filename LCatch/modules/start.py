@@ -51,7 +51,7 @@ async def generate_group_start_message(client):
     buttons = [
         [
             InlineKeyboardButton("Aᴅᴅ Mᴇ", url=f"https://t.me/{bot_user.username}?startgroup=true"),
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+Qq_DJrLZyOAxOWE1")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/WaifuxIvan")
         ]
     ]
     return caption, buttons
