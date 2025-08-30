@@ -45,7 +45,7 @@ async def harem_handler(client: Client, message: Message):
 
     # Check if the user is in the support channel
     if not await check_support_channel(client, user_id):
-        keyboard = [[InlineKeyboardButton("Mᴜsᴛ Jᴏɪɴ Tᴏ sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ", url=f"https://t.me/WaifuxIvan")]]
+        keyboard = [[InlineKeyboardButton("Mᴜsᴛ Jᴏɪɴ Tᴏ sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ", url=f"https://t.me/preetixmusic")]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await message.reply_text(
             f"Please join our support channel {SUPPORT_CHANNEL} to use this command!",
