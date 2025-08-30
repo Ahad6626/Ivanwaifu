@@ -27,13 +27,13 @@ def LOGGER(name: str) -> logging.Logger:
 # ---------------------------- CONSTANTS ---------------------------------
 api_id = os.getenv("API_ID", "22657083")
 api_hash = os.getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
-TOKEN = os.getenv("TOKEN", "8267678007:AAELAQu_PCXObEbicE47ik-0siaTwxqhMRw")
-GLOG = os.getenv("GLOG", "WaifuxIvan")
+TOKEN = os.getenv("TOKEN", "")
+GLOG = os.getenv("GLOG", "preetixmusic")
 CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaifuxDb")
-SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002902949191")
+SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002981254436")
 mongo_url = os.getenv("MONGO_URL", "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan")
 
-MUSJ_JOIN = os.getenv("MUSJ_JOIN", "-1002902949191")
+MUSJ_JOIN = os.getenv("MUSJ_JOIN", "-1002981254436")
 
 # Modified to support both image and video URLs
 START_MEDIA = os.getenv("START_MEDIA", "https://files.catbox.moe/ohzuz7.jpg,https://files.catbox.moe/hp6hoj.jpg").split(',')
@@ -45,8 +45,8 @@ PHOTO_URL = [
 
 STATS_IMG = ["https://files.catbox.moe/i31pa9.jpg"] 
 
-SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/+G42j7plUt91mYmQx")
-UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/WaifuxIvan")
+SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/preetixmusic")
+UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/preetixmusic")
 SUDO = list(map(int, os.getenv("SUDO", "7570342458").split(',')))
 OWNER_ID = int(os.getenv("OWNER_ID", "8195241636"))
 
