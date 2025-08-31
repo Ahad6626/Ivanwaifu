@@ -13,11 +13,11 @@ format:- /upload reply character-name anime-name rarity-number
 use rarity number accordingly rarity Map
 
 rarity_map = {
-    1: "⚪️ Comman",
-    2: "🟠 Nobel",
-    3: "Legendary",
-    4: "Limited Edition",
-    5: " Exclusive"
+    1: "Common 🟠",
+    2: "Legendary 🟡",
+    3: "Exclusive",
+    4: "Limited",
+    5: "Celestial"
 }
 """
 
