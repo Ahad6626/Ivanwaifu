@@ -57,9 +57,9 @@ Characters are grouped by anime and show the count you own.
         "HELP": """
 Use inline queries to search for characters or view collections.
 
-- `@Waifuxx_bot query` → Search for characters.
-- `@Waifuxx_bot collection.<user_id>` → View a user's character collection.
-- `@Waifuxx_bot collection.<user_id> <name>` → Search within a user's collection.
+- `@PreetixMusic_bot query` → Search for characters.
+- `@PreetixMusic_bot collection.<user_id>` → View a user's character collection.
+- `@PreetixMusic_bot collection.<user_id> <name>` → Search within a user's collection.
 
 Results include character name, anime, rarity, and image.
 """
