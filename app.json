@@ -16,7 +16,7 @@
     },
     "TOKEN": {
       "description": "Telegram Bot Token",
-      "value": "7727035867:AAFN7gPqQQHRksirYq69G5CsCmceEImy1es",
+      "value": "8319779558:AAGzwWPdZOylLjRRHUlmU9-AZZAeWhLDm9A",
       "required": true
     },
     "GLOG": {
@@ -36,7 +36,7 @@
     },
     "MONGO_URL": {
       "description": "MongoDB connection URL",
-      "value": "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan",
+      "value": "mongodb+srv://shreyan82683:shreyan82683@cluster0.c8v26ub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     },
     "PHOTO_URL_1": {
