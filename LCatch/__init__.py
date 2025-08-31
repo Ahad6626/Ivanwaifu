@@ -31,7 +31,7 @@ TOKEN = os.getenv("TOKEN", "")
 GLOG = os.getenv("GLOG", "preetixmusic")
 CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaifuxDb")
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002981254436")
-mongo_url = os.getenv("MONGO_URL", "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan")
+mongo_url = os.getenv("MONGO_URL", "mongodb+srv://shreyan82683:shreyan82683@cluster0.c8v26ub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 MUSJ_JOIN = os.getenv("MUSJ_JOIN", "-1002981254436")
 
