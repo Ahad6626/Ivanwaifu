@@ -31,7 +31,7 @@
     },
     "SUPPORT_CHAT_ID": {
       "description": "ID of the support chat",
-      "value": "-1002902949191",
+      "value": "-1002981254436",
       "required": true
     },
     "MONGO_URL": {
